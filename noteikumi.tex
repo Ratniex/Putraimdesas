@@ -1,0 +1,158 @@
+\documentclass[11pt,a4paper,titlepage]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{booktabs}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{ upgreek }
+\usepackage{lipsum}
+\usepackage{mathtools}
+\usepackage{todonotes}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{subcaption}
+%\usepackage{fullpage}
+\usepackage{polyglossia}
+\setdefaultlanguage{latvian}
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+\DeclarePairedDelimiter\norm{\lVert}{\rVert}%
+\makeatletter
+\let\oldabs\abs
+\def\abs{\@ifstar{\oldabs}{\oldabs*}}
+\let\oldnorm\norm
+\def\norm{\@ifstar{\oldnorm}{\oldnorm*}}
+\makeatother
+
+\begin{document}
+\begin{center}
+  \begin{Huge}
+  \textbf{Putraimdesas uzbrūk \\} 
+\end{Huge}   {\Large Noteikumu grāmata}
+\end{center}  
+Atkal Vikonta Brinzona pilij uzbrūk putraimdesas. Pēc ziņnešu teiktā šoreiz tās ir sapulcējušās lielākā barā nekā 
+parasti turkāt dabūušas arī asinsdesu algotņus. Varētu likties ka no iepriekšējiem sirojumiem pret Vikonta pils 
+iespaidīgajiem nocietinājumiem putraimdesas būtu guvušas labu mācību, bet nelaimīgā kārtā šoreiz tās uzbrūk tieši 
+tad, kad labākie un uzticamākie siera desu karotāji ir devušies kampaņā pret pīrāgu ostām dienvidos. Tādas nejaušības 
+noteikti nav nejaušības - Vikonta karavīru starpā ir spiegi!
+
+\section*{Spēles komponentes}
+\begin{itemize}
+\item Spēles laukums
+\item 6 spēlētāju figūriņas
+\item 6 lomu kārtis (4 siera desas un 2 putraimdesas)
+\item 3 virsnieku žetoni (leitnants, sardzes kapteinis, seržants)
+\item 9 nocietinājumu kārtis (+8, +4, 0)
+\item 72 putraimdesu uzbrukuma kārtis.
+\item Šķēršļu joslas kārtis
+\end{itemize}
+
+\section*{Spēles uzstādīšana}
+Novieto spēlētāju figūriņas laukuma centrā pie karoga. Katrā nocietinājumu frontē novieto 3 nocietinājumu kārtis tā, lai
+augšā atrastos +4 pa vidu +8 un apakšā 0. Izdala virsnieku žetonus pēc nejaušības principa tā, lai nevienam
+spēlētājam nebūtu divi žetoni. Tiek sagatavotas sešas vienādas kaudzītes ar putraimdesu uzbrukuma kārtīm tā,
+lai katrā būtu 12 kārtis. Katram spēlētājam iedod vienu kaudzīti. Katram spēlētājam izdala vienu lomas kārti.
+\todo{iespējams spiegiem pirms spēles vajag iepazīties}
+
+\section*{Spēles pārskats}
+Spēle sastāv no 3 spēles raundiem un noslēguma raunda. Spēles raunds sastāv no 4 sekojošām fāzēm:
+\begin{enumerate}
+\item Darbu sadale
+\item Darbu izpilde
+\item Saziņa ar putraimdesu karavīriem
+\item Virsnieku žetonu maiņa
+\end{enumerate}
+Noslēguma raundā arī ir 4 fāzes, bet pēdējās divas ir atšķirīgas:
+\begin{enumerate}
+\item Darbu sadale
+\item Darbu izpilde
+\item Nocietinājumu aizstāvju izvēlēšanās
+\item Lielā kauja
+\end{enumerate}
+
+\section*{Darbu sadale}
+Darbu sadales sākumā visas spēlētāju figūriņas tiek novietotas laukuma centrā pie karoga. Ja spēlētāja figūriņa stāv pie 
+karoga tad tas nozīmē ka šo spēlētāju var norīkot. Tagad virsniekiem ir iespēja norīkot spēlētājus kuri stāv pie karoga. 
+Ja virsnieka figūriņa stāv pie karoga tad atiecīgais spēlētājs var to novietot pilī un citu spēlētāju figūriņas novietot
+pa posteņiem vai arī atstāt pie karoga, bet ja virsnieks pats jau ir norīkots tad viņš ir spiests neko nedarīt.
+Vispirms iespēja komandēt citus spēlētājus tiek dota leitnantam, tad sardzes kapteinim un beigās seržantam. 
+
+Ja leitnants izvēlas norīkot spēlētājus pie nocietinājumiem tad viņš noliek savu figūriņu pilī
+un citu spēlētāju figūriņas noliek pie nocietinājumiem vai atstāj pie karoga. Pie katra nocietinājuma nedrīkst novietot
+vairāk kā vienu spēlētāju. Ja leitnants izvēlas nenorīkot 
+citus spēlētājus tad viņš arī pats savu figūriņu atstāj pie karoga un tad citiem virsniekiem ir iespēja norīkot viņa
+figūriņu naktssardzei vai trenniņiem. 
+
+Pēc tam rīkojas sardzes kapteinis. Viņš norīko cilvēkus sargtornī un sakārto secībā kurā tie pildīs savas darbības.
+Ja sardzes kaptieņa figūriņa vairs neatrodas pie karoga tad viņš ir spiests neko nedarīt. Sardzes kapteinis var norīkot 
+jebkuru figūru kura joprojām atrodas pie karoga, ieliekot savu figūru pilī.
+
+Līdzīgā veidā rīkojas seržants norīkojot cilvēkus pie šķēršļu joslas. Arī seržants var izvēlēties neko nedarīt, kaut 
+gan tā rīkotos tikai putraimdesu spiegs.
+
+{Pils ir vieta kurā siera desu virsnieki nodarbojas ar birokrātiju. Nepieredzējušajām un plānādainajām siera desām
+birokrātija ļoti nepatīk, jo viņi to nesaprot un dažādo atskaišu aizpildīšana tām aizņem visu dienu. Vikonts
+tomēr uzstāj ka birokrātija ir jāpilda, jo tā ir sena dzimtas tradīcija, kaut arī pašam Vikontam birokrātija diez ko
+nepatīk. Patiesībā birokrātiju izdomāja tikai pirms simts gadiem bariņš virsnieku kuri negribēja iet uz šķēršļu joslu.}
+
+\section*{Darbu izpilde}
+Darbu izpilde notiek tāda pat secībā kā norīkošana - vispirms rīkojas spēlētāji pie nocietinājumiem, pēc tam sargtornī
+norīkotie un beigās tie kuri ir šķēršļu joslā.
+  \paragraph*{Nocietinājumi: } Visi spēlētāji kuri norīkoti pie nocietinājumiem rīkojas vienlaicīgi. Katrs paņem sev
+  atbilstošo nocietinājumu kaudzīti, tad slepus paskatās, tad slepus apmaina vietām divas augšējās kārtis, vai
+  divas apakšējās kārtis vai arī nedara neko. Pēc tam novieto kaudzīti atpakaļ pie atbilstošā nocietinājuma.
+  Lielajā kaujā tiks ņemta vērā tikai augšējā kārts.
+  \paragraph*{Sargtornis: } Spēlētāji rīkojas secībā sākot ar pirmo. Spēlētājs sargtornī var darīt vienu no divām lietām.
+  1.) Slepus aplūkot kārtis kādā no nocietinājumu kaudzītēm, bet nemainīt to secību.
+  2.) Rūpīgi samaisīt putraimdesu uzbrukuma kārtis kuras atrodas mežā un paņemt sev trīs, un tās slepus aplūkot.
+  \paragraph*{Šķēršļu josla: } Spēlētāji rīkojas secībā sākot ar pirmo. Katrs spēlētājs paņem šķēršļu joslas kārtis, 
+  no tām viņš izvēlas vienu, atklāj pārējiem \todo{vēl jāizdomā vai atklāti, vai aizklāti}
+  un patur sev priekšā. Pēc tam šķēršļu joslas kārtis tiek padotas 
+  nākamajam spēlētājam. Kārts bonuss skaitīsies tikai tad ja dotais spēlētājs
+  tiks izvēlēts lielajai kaujai un tikai tad ja viņš nav spiegs.
+\\
+Pēc katra spēlētāja darbības spēlētājiem var rasties vajadzība apspriesties un pastāstīt ko viņi ir redzējuši, bet 
+nedrīkstēja rādīt citiem. Spēlētājiem ir atļauts apspriesties jebkurā brīdī ar vienu izņēmumu - nocietinājumu 
+labošana notiek vienlaicīgi un tajā laikā neviens nerunā, tomēr, tieši pirms un tieši pēc tam spēlētāji drīkst 
+apspriesties.
+
+\section*{Saziņa ar putraimdesu karavīriem}
+Katrs spēlētājs ieliek mežā vienu putraimdesu uzbrukuma kārti ar attēlu uz leju. Siera desu spēlētājiem būs  
+jāieliek kārts kura neko nedara, bet ir svarīgi, lai visi spēlētāji paskatās uz savām kārtīm un brīdi padomā par to
+ko viņiem likt, jo citādi uzreiz būtu skaidrs kuri ir spiegi. Putraimdesu spiegiem tikmēr ir iespēja izvēlēties ko likt, 
+ieteicamā stratēģija ir censties uzbrukt no vienas puses vai uzbrukt tur, kur ir vāji nocietinājumi.
+
+\section*{Virsnieku žetonu maiņa}
+Vispirms leitnants iedod savu žetonu spēlētājam kuram nav žetona. Pēc tam sardzes kapteinis iedod savu žetonu spēlētājam
+kuram nav žetona, turklāt viņš drīkst dot savu žetonu tam spēlētājam kurš pirms tam bija leitnants. Līdzīgi rīkojas
+arī seržants. Šajā fāzē tiek pabīdīts uz priekšu putraimdesu karaspēks, lai spēlētāji atcerētos cik raundus ir 
+izspēlējuši.
+
+\section*{Nocietinājumu aizstāvju izvēlēšanās}
+Kad ir izpēlēti pirmie trīs spēles raundi un noslēguma raunda pirmās divas fāzes, un putraimdesu karaspēks ir ieradies
+sākas nocietinājumu aizstāvju ievēlēšana. Par nocietinājumu aizstāvjiem tiek ievēlēti divi spēlētāji. Šiem spēlētājiem
+priekšā noliktās šķēršļu joslas kārtis tiks ņemtas vērā nosakot kaujas rezultātu. Spēlētāju pāris skaitās ievēlēts
+tad, ja par tiem baslo vairāk kā puse spēlētāju. 
+\section*{Lielā kauja}
+Pirms lielās kaujas \todo{liesās kaujas} visas putraimdesu uzbrukuma kārtis kuras spēlētāji bija ieguvuši ar sargtorņa
+palīdzību tiek atgriestas atpakaļ mežā. Pēc tam visas kārtis no meža tiek atklātas un katrā pils frontē tiek saskaitīts
+cik putraimdesas tai uzbrūk. Tiek atklāta augšējā kārts no katras nocietinājumu frontes. Tiek atklātas visu spēlētāju
+lomu kārtis. Ja kādā no kāršu atklāšanas brīžiem ir iespējams ieturēt spriedzes pilnu pauzi intrigas uzturēšanai tad
+tas noteikti ir jādara.
+
+Siera desu spēks katrā frontē ir vienāds ar attiecīgās frontes 
+nocietinājumu vērtību, plus, abu aizstāvju šķēršļu joslas kārtīm, bet ja atklājas ka kāds no spēlētājiem ir spiegs
+tad viņa kāršu vērtība netiek ņemta vērā un tā vietā aizsargi dabū -2 pie savas summas. Ja frontei uzbrūk vairāk 
+putraimdesas nekā ir aizsargu spēks tad katra nepieveiktā putraimdesa tiek pie Vikonta pils izlaupīšanas.
+
+Pa visām frontēm tiek saskaitītas putraimdesas kuras tika cauri nocietinājumiem un spiegi dabū katrs tik daudz punktus.
+Ja siera desu aizsardzībai neizlauzās cauri neviena putraimdesa tad katra siera desa dabū 2 punktus.
+
+Uzvar tie spēlētāji kuri pēc trīs spēlēm ir dabūjuši visvairāk punktus.
+\end{document}
+
+Kāpēc spiegi netiek likti cietumā tad kad ir skaidrs kuri viņi ir.
+
+Kāpēc seržants var pavēlēt leitnantam
